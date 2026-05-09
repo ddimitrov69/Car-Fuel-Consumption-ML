@@ -109,7 +109,7 @@ def train_and_evaluate(X_train, X_test, y_train, y_test):
 # 5. MAIN EXECUTION FLOW
 # ==========================================
 if __name__ == "__main__":
-    
+    try:
         data = load_data('FuelConsumption.csv')
         perform_eda(data)
         X_tr, X_te, y_tr, y_te = preprocess_data(data)
