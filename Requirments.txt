@@ -1,0 +1,6 @@
+Python libraries needed to install.
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
